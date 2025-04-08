@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesenki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <ul class="nav">
+            <li><a href="#">Сообщения</a></li>
+            <li><a href="#">Мой профиль</a></li>
+            <li><a href="#">Исполнители</a></li>
+            <li><a href="#">Мой плейлист</a></li>
+            <li><a href="#">Главная</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="left">
+            <h1>песни</h1>
+        </div>
+        <div class="right">
+            <p>Нажмите для воспоизведения</p>
+            <img src="./media/play.png" alt="кнопка" id="icon">
+        </div>
+    </div>
+    <audio id = 'mysound'>
+        <source src="./media/music.mp3" type="audio/mp3">
+    </audio>
+    <script src="./index.js"></script>
+</body>
+</html>
